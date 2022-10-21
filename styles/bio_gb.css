@@ -1,0 +1,12 @@
+.header_card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  color: #a8908c;
+}
+
+.link:hover {
+  color: #a8908c;
+}
