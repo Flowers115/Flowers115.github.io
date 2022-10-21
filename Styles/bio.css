@@ -11,7 +11,7 @@ body {
   text-decoration: none;
   font-size: 22px;
   color: #a8908c;
-  width: 100px;
+  width: 200px;
 }
 
 .card-title:hover {
@@ -32,6 +32,16 @@ body {
   height: 100px;
   box-shadow: 1px 1px 10px black;
 }
+
+.experience {
+  font-size: 70px;
+  text-shadow: 1px 1px 10px #c6aea9;;
+}
+
+.container {
+  background-color: #c6aea9;
+  border: 1px solid #a8908c;
+} 
 
 .footer {
   margin-top: 461px;

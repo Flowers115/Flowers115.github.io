@@ -95,6 +95,7 @@
 .name {
   font-family: 'Ms Madi', cursive;
   font-size: 100px;
+  text-shadow: 1px 1px 10px #c6aea9;
 }
 
 .btn_SeeMore {
