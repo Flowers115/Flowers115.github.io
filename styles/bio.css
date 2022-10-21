@@ -1,0 +1,42 @@
+body {
+  height: 2000px;
+}
+
+.header_card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title {
+  text-decoration: none;
+  font-size: 22px;
+  color: #a8908c;
+  width: 100px;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+  color: #787072;
+}
+
+.flag_gb {
+  margin-left: 410px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a8908c;
+  width: 800px;
+  height: 100px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.footer {
+  margin-top: 461px;
+}
+
+.footer_contact {
+  color: black;
+}
