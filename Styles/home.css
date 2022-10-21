@@ -1,0 +1,141 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+  font-size: 20px;
+  background-color: #c6aea9;
+  box-shadow: 1px 1px 10px black;
+}
+
+.link-menu {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px 0 50px;
+}
+
+.home {
+  margin-right: 20px;
+  color: black;
+}
+
+.home a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.home a:visited {
+  color: black;
+}
+
+.home a:hover {
+  color: rgb(124,115,117);
+  text-decoration: underline;
+}
+
+.home a:active {
+  color: rgb(175,158,156);
+}
+
+.bio {
+  margin-right: 20px; 
+  color: black;
+}
+
+.bio a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.bio a:visited {
+  color: black;
+}
+
+.bio a:hover {
+  color: rgb(124,115,117);
+  text-decoration: underline;
+}
+
+.bio a:active {
+  color: rgb(175,158,156);
+}
+
+.contact {
+  margin-right: 10px;
+  color: black;
+  font-style: none;
+}
+
+.contact a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.contact a:visited {
+  color: black;
+}
+
+.contact a:hover {
+  color: rgb(124,115,117);
+  text-decoration: underline;
+}
+
+.contact a:active {
+  color: rgb(175,158,156);
+}
+
+.content {
+  color: white;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-family: 'Ms Madi', cursive;
+  font-size: 100px;
+}
+
+.btn_SeeMore {
+  margin-top: 20px;
+  background-color: transparent;
+  color: #c6aea9;
+  border: 1px solid #c6aea9;
+  height: 40px;
+  width: 90px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.btn_SeeMore:hover {
+  background-color: #c6aea9;
+  color: #787072;
+}
+
+.footer {
+  background-color: #c6aea9;
+  margin-top: 140px;
+  width: 100%;
+  height: 66px;
+  box-shadow: 1px 1px 10px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail_logo {
+  margin: 0 5px 0 0;
+}
+
+.mail {
+  display: flex;
+  font-size: 12px;
+  margin-bottom: -15px;
+}
+
+.phone {
+  display: flex;
+  font-size: 12px;
+}

@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a8908c;
+  width: 800px;
+  height: 100px;
+  margin-top: -50px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.footer {
+  margin-top: 56px;
+  color: black;
+}
+
+.mail_logo {
+  margin: 0 5px 0 0;
+}
+
+.mail {
+  display: flex;
+  font-size: 12px;
+  margin-bottom: -15px;
+  padding-top: 1px;
+}
