@@ -166,6 +166,10 @@ body {
 /*mobile styles - media queries*/
 @media only screen and (max-width:420px) {
   
+  body {
+    background-image: url(/images/coffee-2847957_1920.jpg);
+  }
+
   .link-menu {
     display: flex;
     flex-direction: column;
