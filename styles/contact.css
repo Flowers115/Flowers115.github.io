@@ -1,3 +1,9 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .contact_page {
   color: black;
   text-shadow: 1px 1px 5px #c6aea9;
@@ -19,3 +25,51 @@
   margin-right: 5px;
 }
 
+/*mobile styles - media queries*/
+@media only screen and (max-width:420px) {
+
+  .link-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact_page {
+    color: black;
+  }
+
+  .footer {
+   position: absolute;
+   bottom: 0;
+  }
+
+  .navbar-text {
+    font-size: 15px;
+  }
+}
+
+/*tablet styles*/
+@media only screen and (min-width: 421px) and (max-width: 960px) {
+
+  .mail_page, .phone_page, .whatsapp, .position {
+    font-size: 30px;
+  }
+
+  .mail_page {
+    margin-top: 350px;
+  }
+
+  .mail_logo_page, .phone_logo_page, .wa_logo, .position_logo {
+    margin-top: 10px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+   }
+ 
+   .navbar-text {
+     font-size: 15px;
+   }
+
+}

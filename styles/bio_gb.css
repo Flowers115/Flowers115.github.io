@@ -66,18 +66,6 @@ body {
     justify-content: center;
   }
 
-  .name {
-   font-size: 70px;
-  }
-
-  .card {
-    width: 400px;
-  }
-
-  .flag_gb {
-    margin-left: 140px;
-  }
-
   .footer {
    position: relative;
    bottom: 0;

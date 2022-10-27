@@ -2,6 +2,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-image: url(/images/wood-3000_2000_2.jpg);
 }
 
 .header_card {
