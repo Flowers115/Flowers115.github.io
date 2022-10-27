@@ -34,7 +34,8 @@ body {
     justify-content: center;
   }
 
-  .contact_page {
+  .phone_page, .whatsapp {
+    text-decoration: none;
     color: black;
   }
 

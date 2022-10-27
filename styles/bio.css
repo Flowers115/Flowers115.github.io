@@ -92,7 +92,6 @@ body {
 
 /*mobile styles - media queries*/
 @media only screen and (max-width:420px) {
-
   
   .link-menu {
     display: flex;
@@ -100,16 +99,12 @@ body {
     justify-content: center;
   }
 
-  .name {
-   font-size: 70px;
-  }
-
   .card {
-    width: 400px;
+    width: 340px;
   }
 
   .flag_gb {
-    margin-left: 140px;
+    margin-left: 75px;
   }
 
   .footer {
@@ -126,7 +121,12 @@ body {
 @media only screen and (min-width: 421px) and (max-width: 960px) {
 
   .card {
+    width: 740px;
     margin-top: 10px;
+  }
+
+  .flag_gb {
+    margin-left: 140px;
   }
   
   .footer {
