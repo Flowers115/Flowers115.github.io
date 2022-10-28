@@ -219,7 +219,7 @@ body {
   }
 
   .name {
-    font-size: 70px;
+    font-size: 40px;
   }
 
   .footer {
@@ -236,5 +236,13 @@ body {
   
   body {
     background-image: url(/images/coffee-2847957_1920.jpg);
+  }
+
+  .name {
+    font-size: 40px;
+  }
+  
+  .content {
+    margin-top: 60px;
   }
 }
