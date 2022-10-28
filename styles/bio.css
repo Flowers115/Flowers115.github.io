@@ -26,11 +26,6 @@ body {
   margin-left: 410px;
 }
 
-.photo {
-  width: 260px;
-  height: auto;
-}
-
 .card {
   display: flex;
   justify-content: center;
@@ -91,7 +86,7 @@ body {
 }
 
 /*mobile styles - media queries*/
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:320px) {
   
   .link-menu {
     display: flex;
@@ -100,11 +95,15 @@ body {
   }
 
   .card {
-    width: 340px;
+    width: 290px;
   }
 
   .flag_gb {
-    margin-left: 75px;
+    margin-left: 30px;
+  }
+
+  .experience {
+    font-size: 50px;
   }
 
   .footer {
@@ -117,16 +116,19 @@ body {
   }
 }
 
-/*tablet styles*/
-@media only screen and (min-width: 421px) and (max-width: 960px) {
+@media only screen and (min-width: 321px) and (max-width: 481px) {
 
   .card {
-    width: 740px;
+    width: 290px;
     margin-top: 10px;
   }
 
   .flag_gb {
-    margin-left: 140px;
+    margin-left: 28px;
+  }
+
+  .experience {
+    font-size: 50px;
   }
   
   .footer {
@@ -137,5 +139,27 @@ body {
    .navbar-text {
      font-size: 15px;
    }
+}
 
+/*tablet styles*/
+@media only screen and (min-width: 482px) and (max-width: 769px) {
+
+  .card {
+    width: 450px;
+  }
+
+  .flag_gb {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1024px) {
+
+  .card {
+    width: 600px;
+  }
+
+  .flag_gb {
+    margin-left: 150px;
+  }
 }

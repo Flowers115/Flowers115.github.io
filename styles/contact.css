@@ -26,51 +26,40 @@ body {
 }
 
 /*mobile styles - media queries*/
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:320px) {
 
-  .link-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .phone_page, .whatsapp {
-    text-decoration: none;
-    color: black;
-  }
-
-  .footer {
-   position: absolute;
-   bottom: 0;
-  }
-
-  .navbar-text {
+  .mail_page, .phone_page, .whatsapp, .position {
     font-size: 15px;
+  }
+
+  .mail_page {
+    margin-top: 150px;
+  }
+  
+  .mail_logo_page, .phone_logo_page, .wa_logo, .position_logo {
+    width: 23px;
+    height: 23px;
+  }
+ }
+
+
+@media only screen and (min-width: 321px) and (max-width: 481px) {
+  
+  .mail_page, .phone_page, .whatsapp, .position {
+    font-size: 18px;
+  }
+
+  .mail_page {
+    margin-top: 150px;
   }
 }
 
 /*tablet styles*/
-@media only screen and (min-width: 421px) and (max-width: 960px) {
+@media only screen and (min-width: 482px) and (max-width: 769px) {
 
-  .mail_page, .phone_page, .whatsapp, .position {
-    font-size: 30px;
-  }
 
-  .mail_page {
-    margin-top: 350px;
-  }
+}
 
-  .mail_logo_page, .phone_logo_page, .wa_logo, .position_logo {
-    margin-top: 10px;
-  }
-
-  .footer {
-    position: absolute;
-    bottom: 0;
-   }
- 
-   .navbar-text {
-     font-size: 15px;
-   }
+@media only screen and (min-width: 770px) and (max-width: 1024px) {
 
 }
