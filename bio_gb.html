@@ -26,20 +26,36 @@
   </head>
   
   <body>
-    <nav class="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="icons/favicon 32x32.png" alt="Logo" width="28" height="28" class="d-inline-block align-text-top">
-          Andrea Fiori
-        </a>
-        <div class="link-menu">
-          <div class="home"> <a href="index.html">Home</a></div>
-          <div class="bio"> <a href="bio.html">Bio</a></div>
-          <div class="contact"><a href="contact.html">Contact</a></div>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#home">Action</a></li>
+                <li><a class="dropdown-item" href="#bio">Another action</a></li>
+                <li><a class="dropdown-item" href="#contatti">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-    <div class="content">
+    <div class="content" id="home">
+      <p>Hello, I am</p>
+      <p class="name">Andrea Fiori</p>
+      <p>a Web Delevoper</p>
+      <a class="btn_SeeMore" href="#Esperienze">See More</a>
+    </div>
+
+    <div class="content_bio" id="bio">
       <div class="card">
         <div class="row">
           <div class="col">
@@ -48,7 +64,7 @@
           <div class="col-md-8">
             <div class="card-body">
               <div class="header_card">
-                <h5 class="card-title"><strong>Bio</strong></h5><a class="flag_gb" href="bio.html"><img src="icons/icons8-italia-30.png"></a>
+                <h5 class="card-title"><strong>Bio</strong></h5><a class="flag_gb" href="index.html"><img src="icons/icons8-italia-30.png"></a>
               </div>             
                 <p class="card-text">My name is Andrea Fiori, 1988, and I want to be a web developer.  
                 The world of the Internet has always interested me since I was a child and later being able to create sites from scratch fascinated me more and more. For me, being able to combine a very rigid code with a design that has no limits, if not the imagination of those who create it, is a wonderful combination.
@@ -60,7 +76,7 @@
           </div>
         </div>
       </div>
-      <p class="experience">Experience</p>
+      <p class="experience" id="Esperienze">Experience</p>
       <div class="card mb-3">
         <img src="images/Schermata 2022-10-21 alle 11.07.13.png" class="card-img-top">
         <div class="card-body">
@@ -94,23 +110,18 @@
           <p class="card-text">In this course you will learn about the equipment, techniques and some tricks to start creating videos.</p>
         </div>
       </div>
-      <div class="footer">
-        <nav class="navbar">
-          <div class="container-fluid">
-            <span class="navbar-text">
-              <div class="footer_contact">
-                <div class="mail">
-                <img class="mail_logo" src="icons/social_icon/icons8-gmail-32.png" width="15" height="15">
-                  E-mail: andreafiori115@gmail.com
-                </div>
-                <div class="phone">
-                <img class="phone_logo" src="icons/social_icon/icons8-telefono-30.png" width="15" height="15">
-                  Phone: +39 328/0258005
-                </div>
-              </div>
-            </span>
-          </div>
-        </nav>
+
+    <div class="footer">
+      <div class="footer_contact">
+        <div class="whatsapp">
+          <img class="wa_logo" src="icons/social_icon/icons8-whatsapp-48.png" width="28" height="28">
+            +39 328/0258005
+        </div>
+        <div class="position">
+          <img class="position_logo" src="icons/social_icon/icons8-google-maps-48.png" width="28" height="28">
+            Scurcola Marsicana (AQ) - 67068
+        </div>
       </div>
+    </div>
   </body>
 </html>

@@ -1,8 +1,9 @@
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-image: url(/images/wood-3000_2000_2.jpg);
+.content_bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
 }
 
 .header_card {
@@ -34,10 +35,12 @@ body {
   width: 800px;
   height: 100px;
   box-shadow: 1px 1px 10px black;
+  margin-top: 20px;
 }
 
 .experience {
-  font-size: 70px;
+  margin: 20px 0 20px 0;
+  padding-top: 60px;
   text-shadow: 1px 1px 10px #c6aea9;;
 }
 
@@ -45,45 +48,6 @@ body {
   background-color: #c6aea9;
   border: 1px solid #a8908c;
 } 
-
-.footer {
-  background-color: #c6aea9;
-  margin-top: 155px;
-  width: 100%;
-  height: 30px;
-  box-shadow: 1px 1px 10px black;
-  position: relative;
-  bottom: 0;
-}
-
-.footer_contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.mail {
-  display: flex;
-  justify-content: center;
-  font-size: 12px;
-  margin-top: 1px;
-  margin-right: 15px;
-}
-
-.mail_logo {
-  margin-right: 5px;
-}
-
-.phone {
-  display: flex;
-  justify-content: center;
-  font-size: 12px;
-  margin-top: 1px;
-}
-
-.phone_logo {
-  margin-right: 5px;
-}
 
 /*mobile styles - media queries*/
 @media only screen and (max-width:320px) {

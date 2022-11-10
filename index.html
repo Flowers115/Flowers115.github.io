@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" href="icons/favicon 32x32.png">
    
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/bio.css">
    
     <meta name="viewport" content="width=device-width, initial-scale=1">
    
@@ -21,45 +22,110 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap" rel="stylesheet">
+
   </head>
   
   <body>
-    <nav class="navbar">
+    <nav class="navbar fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img src="icons/favicon 32x32.png" alt="Logo" width="28" height="28" class="d-inline-block align-text-top">
-          Andrea Fiori
         </a>
-        <div class="link-menu">
-          <div class="home"> <a href="index.html">Home</a></div>
-          <div class="bio"> <a href="bio.html">Bio</a></div>
-          <div class="contact"><a href="contact.html">Contact</a></div>
+        <div class="btn-group">
+          <button type="button" class="btn" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            <img src="/icons/icons8-menu-arrotondato-96.png" width="30" height="30" alt="menu">
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-end">
+            <li><a class="dropdown-item" href="index.html">Home</a></li>
+            <li><a class="dropdown-item" href="#bio">Bio</a></li>
+            <li><a class="dropdown-item" href="#contatti">Contatti</a></li>
+          </ul>
         </div>
       </div>
     </nav>
     <div class="content">
-      <p>Hello, I am</p>
-      <p class="name">Andrea Fiori</p>
-      <p>a Web Delevoper</p>
-      <a class="btn_SeeMore" href="bio.html">See More</a>
+      <h2>Hello, I am</h2>
+      <h1 class="name">Andrea Fiori</h1>
+      <h2>a Web Delevoper</h2>
+      <a class="btn_SeeMore" href="#Esperienze">See More</a>
     </div>
-    <div class="footer">
-      <nav class="navbar">
-        <div class="container-fluid">
-          <span class="navbar-text">
-            <div class="footer_contact">
-              <div class="mail">
-              <img class="mail_logo" src="icons/social_icon/icons8-gmail-32.png" width="15" height="15">
-                E-mail: andreafiori115@gmail.com
-              </div>
-              <div class="phone">
-              <img class="phone_logo" src="icons/social_icon/icons8-telefono-30.png" width="15" height="15">
-                Phone: +39 328/0258005
-              </div>
-            </div>
-          </span>
+
+    <div class="title" id="bio">
+      <h1>Biografia</h1>
+    </div>
+    <div class="container_bio">
+      <div class="media_bio">
+        <img class="foto" src="/images/PHOTO-2022-09-22-13-17-53ok.jpg" alt="My Photo">
+        <div class="motiv">
+          <p class="motiv2">"La tua felicità dipende solo da te!"</p>
         </div>
-      </nav>
+      </div>
+      <div class="text_bio">
+        <div class="biograph">
+          <h2>Bio</h2>
+          <p>Mi chiamo Andrea Fiori, classe 1988 e voglio diventare uno sviluppatore web.
+            Il mondo di Internet mi ha sempre interessato fin da bambino e in seguito poter creare dei siti da zero mi ha affascinato sempre di più.  Per me poter unire un codice rigidissimo a un design che non ha limiti, se non la fantasia di chi lo crea, è un binomio meraviglioso.
+            Non ho mai studiato per realizzare siti web, ma grazie a <a class="link_bio" href="https://www.start2impact.it/" target="_blank" rel="noopener" style="text-decoration: none;">start2impact university</a> ho imparato i linguaggi di html, css e sto continuando a studiare per imparare altri linguaggi come Javascript per migliorare la mia tecnica.
+            Oltre al Web, mi interesso anche di fotografia (specialmente quella naturalistica - <a class="link_bio" href="http://www.fotografixnatura.it/" target="_blank" rel="noopener" style="text-decoration: none;">www.fotografixnatura.it</a>) e videomaking. </p>
+        </div> 
+        <div class="goal">
+          <h2>Obiettivi</h2>
+          <p>Lavorare come full stack developer è la mia ambizione e grazie ad impegno e perseveranza sono sicuro di poter arrivare al mio obiettivo.</p>
+        </div> 
+      </div>
     </div>
+
+    <div class="content_bio">
+      <h1 class="experience" id="Esperienze">Esperienze</h1>
+      <div class="card mb-3">
+        <img src="images/Schermata 2022-10-21 alle 11.07.13.png" class="card-img-top">
+        <div class="card-body">
+          <a class="card-title" href="http://www.fotografixnatura.it/" target="_blank" rel="noopener">fotografixnatura.it</a>
+          <p class="card-text">Fotografixnatura.it è nato dalla passione per la natura e la fotografia, da qui abbiamo aperto una gallery online con i nostri lavori.</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="images/Schermata 2022-10-21 alle 11.28.40.png" class="card-img-top">
+        <div class="card-body">
+          <a class="card-title" href="https://www.youtube.com/channel/UC3YMiNnTgKczUcC431cbkGA" target="_blank" rel="noopener">fotografixnatura.it - Youtube</a>
+          <p class="card-text">Oltre alle foto, abbiamo creato un canale YT con Video girati e montati direttamente da noi.  Si possono trovare sia contenuti su gadjet che consigli pratici.</p>
+        </div>
+      </div>
+      <h1 class="experience">Corsi</h1>
+      <div class="card mb-3">
+        <div class="card-header">
+          <h2>Start2Impact University</h2>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Corso - Full Stack Developer</h3>
+          <p class="card-text">Impari a conoscere ed usare i vari linguaggi di programmazione per creare App e pagine web.</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-header">
+          <h2>Slim Dogs Factory</h2>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Corso - Da zero a Videomaker</h3>
+          <p class="card-text">In questo corso impari a conoscere l'attrezzatura, le tecniche e qualche trucco per cominciare a creare video.</p>
+        </div>
+      </div>
+
+    <div class="footer" id="contatti">
+      <div class="footer_contact">
+        <div class="whatsapp">
+          <img class="wa_logo" src="icons/social_icon/icons8-whatsapp-48.png" width="28" height="28">
+            +39 328/0258005
+        </div>
+        <div class="position">
+          <img class="position_logo" src="icons/social_icon/icons8-google-maps-48.png" width="28" height="28">
+            Scurcola Marsicana (AQ) - 67068
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
