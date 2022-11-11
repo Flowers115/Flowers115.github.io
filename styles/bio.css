@@ -22,10 +22,6 @@
   color: #787072;
 }
 
-.flag_gb {
-  margin-left: 410px;
-}
-
 .card {
   display: flex;
   justify-content: center;
@@ -38,8 +34,7 @@
 }
 
 .experience {
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-shadow: 1px 1px 10px #c6aea9;
   font-size: 100px;
   padding-top: 60px;
