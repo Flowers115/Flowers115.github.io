@@ -13,7 +13,6 @@
 
 .card-title {
   text-decoration: none;
-  font-size: 22px;
   color: #a8908c;
   width: 200px;
 }
@@ -39,9 +38,11 @@
 }
 
 .experience {
-  margin: 20px 0 20px 0;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 10px #c6aea9;
+  font-size: 100px;
   padding-top: 60px;
-  text-shadow: 1px 1px 10px #c6aea9;;
 }
 
 .container {
