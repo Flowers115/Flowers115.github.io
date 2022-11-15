@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="icons/favicon 32x32.png">
    
     <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/bio.css">
+
    
     <meta name="viewport" content="width=device-width, initial-scale=1">
    
@@ -41,7 +41,7 @@
           <img src="icons/favicon 32x32.png" alt="Logo" width="28" height="28" class="d-inline-block align-text-top">
         </a>
         <div class="btn-group">
-          <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+          <button type="button" class="btn-menu" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
             <img src="/icons/icons8-menu-arrotondato-96.png"  alt="menu" width="30" height="30">
           </button>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-end">
@@ -129,15 +129,24 @@
           <p>Lascia la tua mail e il motivo per il quale mi stai contattando</p>
         </div>
 
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <div class="container-form">
+          <form target="_blank" action="https://formsubmit.co/andreafiori115@gmail.com" method="POST">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input type="text" name="name" class="form-control" placeholder="Nome e Cognome" required>
+                </div>
+                <div class="col">
+                  <input type="email" name="email" class="form-control" placeholder="Email" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Il tuo messaggio..." class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg btn-light btn-block">Invia</button>
+          </form>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Lascia un messaggio</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-  
       </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
